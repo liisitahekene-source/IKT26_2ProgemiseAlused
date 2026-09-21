@@ -35,13 +35,13 @@
             else if (jalanumber >= 45 && jalanumber <= 48)
             {
                 Console.Beep();
-                Thread.SpinWait(1000);
+                Thread.Sleep(1000);
                 Console.Beep();
-                Thread.SpinWait(1000);
+                Thread.Sleep(1000);
                 Console.Beep();
-                Thread.SpinWait(1000);
+                Thread.Sleep(1000);
                 Console.Beep();
-                Thread.SpinWait(1000);
+                Thread.Sleep(1000);
                 Console.WriteLine("Sinu jalanumber on 45-48");
 
             }
